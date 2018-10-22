@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <meta http-equiv="refresh" content="30" />
+        <link href="literary.css" rel="stylesheet" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122057456-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-122057456-2');
+
+        </script>
+
+
+    </head>
+
+    <body onload="copyrightDate()">
+        <div class="header">
+            <h1 class="title">Literary clock</h1>
+        </div>
+        <div class="quoteArea">
+            <h2 id="quote" class="quote"></h2>
+            <h4 id="author" class="author"></h4>
+            <h4 id="source" class="source"></h4>
+        </div>
+
+        <div class="clear"></div>
+        <footer>
+            <div class="attribution">
+                Quote dataset via <a href="https://www.theguardian.com/books/table/2011/apr/21/literary-clock?CMP=twt_gu">The
+                    Guardian</a>.
+            </div>
+            <div class="copyright">
+                Copyright &copy; <span id="copyright"></span> <a href="http://codingbychad.com/">Coding By Chad</a>
+            </div>
+        </footer>
+
+        <script src="literary.js"></script>
+    </body>
+
+</html>

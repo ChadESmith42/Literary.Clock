@@ -1,0 +1,70 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
+
+body {
+  background-color: #1F215E;
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+  background-image: url(http://codingbychad.com/Content/images/starryNight.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quoteArea {
+  background-color: rgba(39, 63, 156, 0.6);
+  color: #E7DAAE;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  border-radius: 20px;
+}
+
+.quote {
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  font: small-caps;
+  color: #121526;
+  padding: 40px;
+  background-color: rgba(61, 101, 158, 0.6);
+  display: block;
+  text-align: center;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.source {
+  font-style: italic;
+  font-size: 1.5rem;
+  display: block;
+}
+
+footer {
+  padding-top: 10px;
+  bottom: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #E7DAAE;
+  display: block;
+}
+
+a,
+a:hover,
+a:visited,
+a:any-link {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #E7DAAE;
+  cursor: pointer;
+}
+
+.clear {
+  clear: both;
+}
